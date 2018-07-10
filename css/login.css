@@ -1,0 +1,68 @@
+#logInBg {
+  width: 100%;
+  min-width: 1002px;
+  min-height: 100%;
+  background: url(../images/logInBg.jpg) no-repeat;
+  background-size: 100% ;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registered{
+  width: 100%;
+  height: 50px;
+  margin-top: -70px
+}
+.registeredMsg{
+  margin-left: 32%;
+  font-size: 20px;
+  font-weight: 800;
+  color: #F8F1D7
+}
+.backIndex{
+  margin-left: 34%;
+  font-size: 14px;
+  color: #999
+}
+#logIn table {
+  margin: 0 auto;
+  height: 120px;
+  color: #fff;
+  font-size: 20px
+}
+
+#logIn input {
+  border: none;
+  height: 25px;
+  border-radius: 3px;
+  padding: 0 5px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+#logIn .button {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 20px;
+  font-weight: bold;
+  color: #F8F1D7;
+}
+
+#logIn .button:active {
+  box-shadow: none;
+}
+
+#logIn .button:hover {
+  cursor: pointer;
+}
+
+#logIn .fgs{
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #999
+}

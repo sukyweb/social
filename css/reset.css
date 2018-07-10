@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, ol, li, p, dl, dt, dd, input, form, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 微软雅黑;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  outline: none
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.abs {
+  position: absolute
+}
+
+.rel {
+  position: relative
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden
+}
