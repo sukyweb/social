@@ -1,0 +1,118 @@
+#main{
+  min-height: 100%;
+  width: 100%;
+}
+
+#sideBar{
+  width: 30%;
+  height: 100%;
+  background: #ccc;
+}
+
+#sideBar .user{
+  width:90%;
+  margin: 20px 5%;
+  background: #fff;
+}
+
+#sideBar .userMsgCon{
+  width: 100%;
+  left: 0;
+  top: 100%;
+  background: #666;
+  display: none;
+}
+
+#userHide{
+  height: 100%;
+  width: 20px;
+  background:
+  #000;
+  top: 0;
+  right:0;
+}
+
+#content{
+  width: 70%;
+  height: 100%;
+  background: #999;
+  left: 30%;
+}
+
+#userMsgChangeCon{
+
+}
+#userMsgChangeCon table {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+  margin: 0 auto;
+  height: 120px;
+  color: #fff;
+  font-size: 20px
+}
+
+#userMsgChangeCon input {
+  border: none;
+  width: 179px;
+  height: 25px;
+  border-radius: 3px;
+  padding: 0 5px;
+  background-color:rgba(255,255,255,0.8);
+}
+#userMsgChangeCon table .sex {
+  font-size: 16px;
+}
+input[type="radio"] + label::before {
+    content: ""; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.8);
+    text-indent: .15em;
+    line-height: 1;
+}
+input[type="radio"]:checked + label::before {
+    background-color: rgba(0,0,0,0.8);
+    background-clip: content-box;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+#userMsgChangeCon textarea {
+  border: none;
+  min-width: 179px;
+  min-height: 50px;
+  margin-top: 4px;
+  border-radius: 3px;
+  padding: 5px;
+  background-color:rgba(255,255,255,0.8);
+}
+
+#userMsgChangeCon .red {
+  margin-left: -10px;
+  color: #FF5555;
+}
+
+#userMsgChangeCon .button {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);;
+}
+
+#userMsgChangeCon .button:active {
+  box-shadow: none;
+}
+
+#userMsgChangeCon .button:hover {
+  cursor: pointer;
+}
